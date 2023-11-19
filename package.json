@@ -4,8 +4,11 @@
     "react": "^18.2.0"
   },
   "devDependencies": {
-    "@types/node": "^20.8.10",
+    "@types/node": "^20.9.2",
     "jsdom": "^22.1.0",
     "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "test": "npx tsc index.ts && node index.js"
   }
 }
